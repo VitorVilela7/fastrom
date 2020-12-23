@@ -29,7 +29,7 @@ See also [SA-1 Root](https://github.com/VitorVilela7/SA1-Root), a project for el
 ### Super Castlevania IV
 [Source Code](./super-castlevania-iv)
 
-[Download latest patch (BPS)](./raw/master/super-castlevania-iv/patch.bps)
+[Download latest patch (BPS)](./../raw/master/super-castlevania-iv/patch.bps)
 
 ## Credits
 Special thanks for the following people that helped me testing the patches:

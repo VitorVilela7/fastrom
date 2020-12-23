@@ -6,8 +6,7 @@
 | |   | | | (_) | |  __/ (__| |_  | | | (_| \__ \ |_| | \ \| |__| | |  | |
 |_|   |_|  \___/| |\___|\___|\__| |_|  \__,_|___/\__|_|  \_\\____/|_|  |_|
                _/ |                                                       
-              |__/                                                        
-
+ Version 1.00 |__/                                      by Vitor Vilela   
 ```
 
 Project FastROM aims into optimizing the SNES games originally designed to run under **SlowROM** (2.68 MHz) to **FastROM** (3.58 MHz).
@@ -30,7 +29,7 @@ See also [SA-1 Root](https://github.com/VitorVilela7/SA1-Root), a project for el
 ### Super Castlevania IV
 [Source Code](./super-castlevania-iv)
 
-[Download latest patch (BPS)](./super-castlevania-iv/patch.bps)
+[Download latest patch (BPS)](./raw/master/super-castlevania-iv/patch.bps)
 
 ## Credits
 Special thanks for the following people that helped me testing the patches:

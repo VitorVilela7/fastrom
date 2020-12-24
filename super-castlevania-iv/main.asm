@@ -55,6 +55,7 @@ macro remap_pointer(pointer, addr)
     endif
     
     org <addr>
+        dl <pointer>|$800000
 endmacro
 
 ; Note that indirect data pointers were not taken in account for two

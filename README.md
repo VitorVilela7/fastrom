@@ -6,7 +6,7 @@
 | |   | | | (_) | |  __/ (__| |_  | | | (_| \__ \ |_| | \ \| |__| | |  | |
 |_|   |_|  \___/| |\___|\___|\__| |_|  \__,_|___/\__|_|  \_\\____/|_|  |_|
                _/ |                                                       
- Version 1.00 |__/                                      by Vitor Vilela   
+ Version 1.10 |__/                                      by Vitor Vilela   
 ```
 
 Project FastROM aims into optimizing the SNES games originally designed to run under **SlowROM** (2.68 MHz) to **FastROM** (3.58 MHz).

@@ -27,6 +27,8 @@ See also [SA-1 Root](https://github.com/VitorVilela7/SA1-Root), a project for el
 ## Games available
 
 ### Super Castlevania IV
+Patch version 1.1
+
 FastROM removes most of the slowdown of Super Castlevania IV. Note that it's only compatible with the NTSC-US version of the game.
 
 [Download latest patch (BPS)](./../../raw/master/super-castlevania-iv/patch.bps)

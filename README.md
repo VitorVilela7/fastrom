@@ -27,12 +27,19 @@ See also [SA-1 Root](https://github.com/VitorVilela7/SA1-Root), a project for el
 ## Games available
 
 ### Super Castlevania IV
-[Source Code](./super-castlevania-iv)
+FastROM removes most of the slowdown of Super Castlevania IV. Note that it's only compatible with the NTSC-US version of the game.
 
 [Download latest patch (BPS)](./../../raw/master/super-castlevania-iv/patch.bps)
 
+You can play the FastROM version with the Uncensored hack.
+Apply the .asm file directly into the Uncensored ROM via Asar.
+
+[Source Code](./super-castlevania-iv)
+
+
 ## Credits
 Special thanks for the following people that helped me testing the patches:
+ - Catador
  - dogen
  - Ethan Tabor
  - MidiRiots

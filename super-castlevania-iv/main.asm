@@ -3,6 +3,13 @@
 
 lorom
 
+; option to include strict testing mode
+!strict ?= 0
+
+if !strict == 1
+    print "strict mode on"
+endif
+
 ; Include general-purpose remaps
 incsrc "new_discrete_long_remap.asm"
 incsrc "new_indexed_long_remap.asm"
@@ -43,10 +50,11 @@ org $00ffd5
 
 ; Remaps pointers to use FastROM
 macro remap_pointer(pointer, addr)
-    assert read3(<addr>) == <pointer>
+    if !strict == 1
+        assert read3(<addr>) == <pointer>
+    endif
     
     org <addr>
-        dl <pointer>
 endmacro
 
 ; Note that indirect data pointers were not taken in account for two
@@ -242,8 +250,11 @@ endmacro
 ; Make MVNs use FastROM, if applicable.
 macro remap_mvn(src, dest, addr)
     assert read1(<addr>+0) == $54
-    assert read1(<addr>+1) == <src>
-    assert read1(<addr>+2) == <dest>
+    
+    if !strict == 1
+        assert read1(<addr>+1) == <src>
+        assert read1(<addr>+2) == <dest>
+    endif
     
     !set_src = <src>|$80
     !set_dest = <dest>|$80
@@ -309,8 +320,10 @@ endmacro
 
 ; Remap data bank configuration
 macro remap_databank(prev_value, addr)
-    assert read1(<addr>+0) == $A9
-    assert read1(<addr>+1) == <prev_value>
+    if !strict == 1
+        assert read1(<addr>+0) == $A9
+        assert read1(<addr>+1) == <prev_value>
+    endif
     
     org <addr>
         LDA.b #$80|<prev_value>

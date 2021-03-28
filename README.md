@@ -6,13 +6,13 @@
 | |   | | | (_) | |  __/ (__| |_  | | | (_| \__ \ |_| | \ \| |__| | |  | |
 |_|   |_|  \___/| |\___|\___|\__| |_|  \__,_|___/\__|_|  \_\\____/|_|  |_|
                _/ |                                                       
- Version 1.10 |__/                                      by Vitor Vilela   
+ Version 1.20 |__/                                      by Vitor Vilela   
 ```
 
 Project FastROM aims into optimizing the SNES games originally designed to run under **SlowROM** (2.68 MHz) to **FastROM** (3.58 MHz).
 FastROM allows the SNES CPU read data and opcodes from the ROM **33.58% faster** compared to SlowROM.
 
-Depending on the game, FastROM will make the game run about 10%-30% faster compared to the original SlowROM version.
+Depending on the game, FastROM will make the game run about 10%-33% faster compared to the original SlowROM version.
 This depends on how frequent the game accesses the ROM chip, since the other componenets such as
 WRAM @ 2.68 MHz, PPU @ 3.58 MHz, DMA @ 2.68 MHz and SRAM @ 2.68 MHz will stay at the same speed.
 
@@ -29,7 +29,8 @@ See also [SA-1 Root](https://github.com/VitorVilela7/SA1-Root), a project for el
 ### Super Castlevania IV
 Patch version 1.1
 
-FastROM removes most of the slowdown of Super Castlevania IV. Note that it's only compatible with the NTSC-US version of the game.
+FastROM removes most of the slowdown of Super Castlevania IV. Note that it's only compatible with the NTSC-US version
+of the game.
 
 [Download latest patch (BPS)](./../../raw/master/super-castlevania-iv/patch.bps)
 
@@ -38,15 +39,38 @@ Apply the .asm file directly into the Uncensored ROM via Asar.
 
 [Source Code](./super-castlevania-iv)
 
+### Axelay
+Patch version 1.0
+
+FastROM removes the majority of slowdown present. Normally slowdown still appears during boss or axelay destruction
+which a lot of particles appear. However, there's still chance of slowdown appearing,
+on this case, let me know and I'll see what more can be optimized on the game.
+
+This version is compatible with the NTSC-US version of the game.
+
+[Download latest patch (BPS)](./../../raw/master/axelay/patch.bps)
+
+[Source Code](./axelay)
 
 ## Credits
-Special thanks for the following people that helped me testing the patches:
+Special thanks for the following people that helped me directly, either testing or providing trace logs:
  - Catador
  - dogen
+ - Erivando_BR
+ - kccheng
+ - Le Duc
  - Ethan Tabor
  - MidiRiots
 
-(PS: If I missed someone, let me know!)
+Special thanks also for all my patrons from
+https://www.patreon.com/vitorvilela, specially for:
+
+* Christopher 
+* Jake Mauer
+* gunmakuma
+* kccheng
+* PsychoFox
+* sam
 
 ## Contacting me
 You can contact me though the following links:

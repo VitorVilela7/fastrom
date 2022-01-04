@@ -6,7 +6,7 @@
 | |   | | | (_) | |  __/ (__| |_  | | | (_| \__ \ |_| | \ \| |__| | |  | |
 |_|   |_|  \___/| |\___|\___|\__| |_|  \__,_|___/\__|_|  \_\\____/|_|  |_|
                _/ |                                                       
- Version 1.30 |__/                                      by Vitor Vilela   
+ Version 1.40 |__/                                      by Vitor Vilela   
 ```
 
 Project FastROM aims into optimizing the SNES games originally designed to
@@ -54,8 +54,6 @@ Patch version 1.0
 
 FastROM removes the majority of slowdown present. Normally slowdown still
 appears during boss or axelay destruction which a lot of particles appear.
-However, there's still chance of slowdown appearing, on this case, let me
-know and I'll see what more can be optimized on the game.
 
 This version is compatible with the NTSC-US version of the game.
 
@@ -79,6 +77,26 @@ This version is compatible with the NTSC-US version of the game.
 
 [Source Code](./fzero)
 
+## U.N. Squadron
+
+U.N. Squadron (also known as "Area 88").
+
+FastROM removes most of the slowdown from the game. Some of the bosses may
+still have some slowdown, which will need the SA-1 chip for total slowdown
+removal.
+
+This version is compatible with the NTSC-US version of the game.
+
+CRC32 (original game): **231F0F67**
+SHA256 (original game): **0B155A54B6134601FC0791252A63CA73EFD522667C3D6FD7A44F5B3C500039D7**
+
+CRC32 (patched game): **25BDAF1F**
+SHA256 (patched game): **10CFC2C04D6B31453DB20725749B74A6A7D0A40DA506AB15CF42EE5F21299827**
+
+[Download latest patch (BPS)](./../../raw/master/un-squadron/patch.bps)
+
+[Source Code](./un-squadron)
+
 # Credits
 Special thanks for the following people that helped me directly, either
 testing or providing trace logs:
@@ -93,10 +111,13 @@ testing or providing trace logs:
 Special thanks also for all my patrons from
 https://www.patreon.com/vitorvilela, specially for:
 
-* Christopher 
-* Jake Mauer
+* Fabio Akita
+* Frogamus Lewd
 * gunmakuma
+* Guy
+* Jake Mauer
 * kccheng
+* Matt Hargett
 * PsychoFox
 * sam
 

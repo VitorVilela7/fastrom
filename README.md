@@ -78,6 +78,7 @@ This version is compatible with the NTSC-US version of the game.
 [Source Code](./fzero)
 
 ## U.N. Squadron
+Patch version 1.0
 
 U.N. Squadron (also known as "Area 88").
 

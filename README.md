@@ -6,7 +6,7 @@
 | |   | | | (_) | |  __/ (__| |_  | | | (_| \__ \ |_| | \ \| |__| | |  | |
 |_|   |_|  \___/| |\___|\___|\__| |_|  \__,_|___/\__|_|  \_\\____/|_|  |_|
                _/ |                                                       
- Version 1.40 |__/                                      by Vitor Vilela   
+ Version 1.41 |__/                                      by Vitor Vilela   
 ```
 
 Project FastROM aims into optimizing the SNES games originally designed to
@@ -50,7 +50,7 @@ Apply the .asm file directly into the Uncensored ROM via Asar.
 [Source Code](./super-castlevania-iv)
 
 ## Axelay
-Patch version 1.0
+Patch version 1.1
 
 FastROM removes the majority of slowdown present. Normally slowdown still
 appears during boss or axelay destruction which a lot of particles appear.
@@ -112,20 +112,13 @@ testing or providing trace logs:
 Special thanks also for all my patrons from
 https://www.patreon.com/vitorvilela, specially for:
 
-* Fabio Akita
-* Frogamus Lewd
-* gunmakuma
-* Guy
-* Jake Mauer
-* kccheng
-* Matt Hargett
-* PsychoFox
-* sam
+* st01014
 
 # Contact
 You can contact me though the following links:
 
-* My Twitter profile: https://twitter.com/HackerVilela
+* My X/Twitter profile: https://twitter.com/HackerVilela
 * My Patreon profile: https://www.patreon.com/vitorvilela
+* My Bluesky profile: https://bsky.app/profile/hackervilela.sneslab.net
 * My Github profile: https://github.com/VitorVilela7
 * My Website: https://www.sneslab.net/

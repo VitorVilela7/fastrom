@@ -22,5 +22,5 @@ org $80FFB0
 		PLA
 		RTI
 	
-	warnpc $80FFC0
+	assert pc() <= $80FFC0
 	

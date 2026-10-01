@@ -112,6 +112,7 @@ testing or providing trace logs:
 Special thanks also for all my patrons from
 https://www.patreon.com/vitorvilela, specially for:
 
+* Isstanar
 * st01014
 
 # Contact

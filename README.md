@@ -43,9 +43,7 @@ it's only compatible with the NTSC-US version of the game.
 
 [Download latest patch (BPS)](./../../raw/master/super-castlevania-iv/patch.bps)
 
-You can play the FastROM version with the Uncensored hack.
-
-Apply the .asm file directly into the Uncensored ROM via Asar.
+The uncensor hack includes the FastROM patch by default, no further patching necessary.
 
 [Source Code](./super-castlevania-iv)
 
